@@ -1,7 +1,7 @@
     
     ENTREGABLE NUMERO 5 - PLANTILLAS
 
-    Estudiante: Gonzalo Leonel Gramajo
+    Estudiante: Mendieta Saavedra, Natán
 
 Formato: link a un repositorio en Github con los tres proyectos en
 carpetas separadas. No incluir los node_modules.
