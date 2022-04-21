@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body>
+    <header>
+        <%- include('../partials/header'); %>
+    </header>
+    
+    <main>
+        <table>
+            <tr>
+                <th>Titulo</th>
+                <th>Precio</th>
+                <th>ID</th>
+            </tr>
+            <% array.forEach(function(elemento) { %>
+                <tr>
+                    <td><%= elemento.title %></td>
+                    <td><%= elemento.price %></td>
+                    <td><%= elemento.id %></td>
+                </tr>
+            <% }); %>
+        </table>
+
+        <nav>
+            <a href="/"><button>Ingresar Productos</button></a>
+        </nav>
+    </main>
+
+    <footer>
+        <%- include('../partials/footer'); %>
+    </footer>
+</body>
+</html>
