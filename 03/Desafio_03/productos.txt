@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Cartulina",
+    "price": 781,
+    "thumbnail": "google.com/imagen_cartulina",
+    "id": 1
+  },
+  {
+    "title": "Tijera",
+    "price": 654,
+    "thumbnail": "google.com/imagen_tijera",
+    "id": 2
+  },
+  {
+    "title": "Boligoma",
+    "price": 1000,
+    "thumbnail": "google.com/imagen_boligoma",
+    "id": 3
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "title": "libreta",
+    "price": 380,
+    "thumbnail": "google.com/img_libreta",
+    "id": 1
+  },
+  {
+    "title": "lapicera",
+    "price": 120,
+    "thumbnail": "google.com/imagen_lapicera",
+    "id": 20
+  },
+  {
+    "title": "resaltador",
+    "price": 150,
+    "thumbnail": "google.com/imagen_resaltador",
+    "id": 28
+  },
+  {
+    "title": "oro",
+    "price": 1200,
+    "thumbnail": "google.com/oro",
+    "id": 29
+  },
+  {
+    "title": "oro",
+    "price": 1200,
+    "thumbnail": "google.com/oro",
+    "id": 31
+  },
+  {
+    "title": "plata",
+    "price": 600,
+    "thumbnail": "google.com/plata",
+    "id": "33"
+  },
+  {
+    "title": "bronce",
+    "price": 600,
+    "thumbnail": "google.com/bronce",
+    "id": 34
+  },
+  {
+    "title": "estaño",
+    "price": 500,
+    "thumbnail": "google.com/estanio",
+    "id": 35
+  }
+]
