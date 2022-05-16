@@ -1,0 +1,16 @@
+Mensajes:
+
+[ { email: "ray19719605@test130.com", message: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia" }, { email: "vftld4zanzyu2gk@eluvit.com", message: "Molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum" }, { email: "burningblaze6969@eluvit.com", message: "Numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium" }, { email: "qwas10a@rmune.com", message: "Optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis" }, { email: "foose113@fheiesit.com", message: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia" }, { email: "prozorovvv@yesgurgaon.com", message: "Numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium" }, { email: "motopirat@gmailer.site", message: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia" }, { email: "nfsface@cudimex.com", message: "Tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit" }, { email: "hotplate3114@cudimex.com", message: "Recusandae alias error harum maxime adipisci amet laborum. Perspiciatis" }, { email: "sashapopov53@suttal.com", message: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia" }]
+
+
+-----------------------------------------------------
+
+Productos:
+
+[ { name: "Heladera", price: 1230, thumbnailUrl: "http://heladera.com", stock: 12, description: "Heladera a buen precio." }, { name: "Microondas", price: 1500, thumbnailUrl: "http://microondas.com", stock: 1, description: "Microondas para calentar comida." }, { name: "Lavaropas Philips", price: 1241, thumbnailUrl: "http://lavaropas.com", stock: 122, description: "Lavaropas para lavar la ropa." }, { name: "Koinor grande", price: 1000, thumbnailUrl: "http://koinor.com", stock: 42, description: "Koinor para secar la ropa." }, { name: "Shampoo", price: 4000, thumbnailUrl: "http://shampoo.com", stock: 10, description: "Shampoo para el cabello." }, { name: "Tomate", price: 700, thumbnailUrl: "http://tomate.com", stock: 80, description: "Tomate a buen precio." }, { name: "Computadora Gamer", price: 2000, thumbnailUrl: "http://computadora.com", stock: 46, description: "Computadora Gamer para todos los juegos." }, { name: "Atún en lata", price: 4500, thumbnailUrl: "http://atunn.com", stock: 900, description: "Atún sin aceite." }, { name: "Lámpara", price: 4500, thumbnailUrl: "http://lampara.com", stock: 120, description: "Lámpara para estudiantes." }, { name: "Galletas dulces", price: 3200, thumbnailUrl: "http://galletas.com", stock: 438, description: "Galletas dulces marca diversión." } ]
+
+----------------------------------------------------------------------
+
+Usuario y permisos
+
+db.createUser( { user: 'pepe', pwd: 'asd456', roles: [ { role: 'read', db: 'ecommerce' } ] } )
