@@ -1,0 +1,80 @@
+[
+    {
+      "title": "libreta",
+      "price": 380,
+      "thumbnail": "google.com/img_libreta",
+      "id": 1
+    },
+    {
+      "title": "resaltador",
+      "price": 150,
+      "thumbnail": "google.com/imagen_resaltador",
+      "id": 2
+    },
+    {
+      "title": "lapicera",
+      "price": 120,
+      "thumbnail": "google.com/imagen_lapicera",
+      "id": 20
+    },
+    {
+      "title": "Technical English: Electricity and Electronics",
+      "autor": "Alma Montoya - Benilde Bueno",
+      "description": "Libro buenisimo que deberias comprar.",
+      "price": 1883.2,
+      "thumbnail": "https://www.marcombo.com/wp-content/uploads/2018/07/TEchnical-4.jpg",
+      "editorial": "Marcombo",
+      "pages": 88,
+      "edition": 2,
+      "publication-date": "21/07/2018",
+      "isbn": 9788426725806,
+      "formato": "19.5x28.5 cms",
+      "stock": 12,
+      "id": 1
+    },
+    {
+      "title": "EL GRAN LIBRO DE SOLIDWORKS",
+      "autor": "SERGIO GÓMEZ GONZÁLEZ",
+      "description": "Libro buenisimo que deberias comprar.",
+      "price": 4150.58,
+      "thumbnail": "https://www.marcombo.com/wp-content/uploads/2018/12/9788426726575-8.jpg",
+      "editorial": "Marcombo",
+      "pages": 966,
+      "edition": 3,
+      "publication-date": "04/01/2019",
+      "isbn": 9788426726575,
+      "formato": "17x24 cms",
+      "stock": 12,
+      "id": 2
+    },
+    {
+      "title": "Física general",
+      "autor": "Martín Casado Márquez",
+      "description": "Libro buenisimo que deberias comprar.",
+      "price": 3320.22,
+      "thumbnail": "https://www.marcombo.com/wp-content/uploads/2020/10/9788426728180.jpg",
+      "editorial": "Marcombo",
+      "pages": 496,
+      "edition": 1,
+      "publication-date": "30/10/2020",
+      "isbn": 9788426728180,
+      "formato": "17x24 cms",
+      "stock": 12,
+      "id": 3
+    },
+    {
+      "title": "Química. Prueba de acceso a Ciclo Formativos de Grado Superior",
+      "autor": "Nerea Pérez - Gorka Arreche",
+      "description": "Libro buenisimo que deberias comprar.",
+      "price": 3326.3,
+      "thumbnail": "https://www.marcombo.com/wp-content/uploads/2017/10/9788426722164.jpg",
+      "editorial": "Marcombo",
+      "pages": 172,
+      "edition": 1,
+      "publication-date": "15/05/2015",
+      "isbn": 9788426722164,
+      "formato": "17x24 cms",
+      "stock": 12,
+      "id": 4
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Física general",
+        "autor": "Martín Casado Márquez",
+        "description": "Libro buenisimo que deberias comprar.",
+        "price": 3320.22,
+        "thumbnail": "https://www.marcombo.com/wp-content/uploads/2020/10/9788426728180.jpg",
+        "editorial": "Marcombo",
+        "pages": 496,
+        "edition": 1,
+        "publication-date": "30/10/2020",
+        "isbn": 9788426728180,
+        "formato": "17x24 cms",
+        "stock": 12,
+        "id": 4
+    },
+    {
+        "title": "Química. Prueba de acceso a Ciclo Formativos de Grado Superior",
+        "autor": "Nerea Pérez - Gorka Arreche",
+        "description": "Libro buenisimo que deberias comprar.",
+        "price": 3326.3,
+        "thumbnail": "https://www.marcombo.com/wp-content/uploads/2017/10/9788426722164.jpg",
+        "editorial": "Marcombo",
+        "pages": 172,
+        "edition": 1,
+        "publication-date": "15/05/2015",
+        "isbn": 9788426722164,
+        "formato": "17x24 cms",
+        "stock": 12,
+        "id": 5
+    }
+]

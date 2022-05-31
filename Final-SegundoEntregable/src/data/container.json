@@ -1,0 +1,20 @@
+[
+  {
+    "title": "paz mundial",
+    "price": 80,
+    "thumbnail": "google.com/img_cartulina",
+    "id": 1
+  },
+  {
+    "title": "cartulina",
+    "price": 80,
+    "thumbnail": "google.com/img_cartulina",
+    "id": 2
+  },
+  {
+    "title": "cartulina",
+    "price": 80,
+    "thumbnail": "google.com/img_cartulina",
+    "id": 3
+  }
+]
