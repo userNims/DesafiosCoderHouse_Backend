@@ -56,8 +56,20 @@ io.on('connection', (socket) => {
     })
 
     socket.on('chat-mensajes', data => {
+        let chatGuardado = historial.allMessages;
+        flag = false;
+        chatGuardado.forEach(chat => {
+            if(chat.author.id == data.id){
+                flag = true;
+                historial.addMessage(data)
+            }
+        })
+
+        if(!flag){
+            
+        }
+
         console.log("Chat recibido: ", data);
-        historial.addMessage(data)
         // messages.push(data);
         io.sockets.emit('chat-mensajes', chatHistory);
     })

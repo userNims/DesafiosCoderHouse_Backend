@@ -181,7 +181,7 @@ let mensaje_04 = JSON.parse(`{"email": "natanmendieta@gmail.com", "timestamp": "
 
 // ................... Adding Message ...................
 // mensajeria_01.insertMessage(mensaje_01);
-// mensajeria_01.insertMessage(mensaje_02);
+mensajeria_01.insertMessage(mensaje_02);
 // mensajeria_01.insertMessage(mensaje_03);
 // mensajeria_01.insertMessage(mensaje_04);
 

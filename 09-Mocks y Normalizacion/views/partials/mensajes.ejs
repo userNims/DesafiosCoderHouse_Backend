@@ -1,0 +1,48 @@
+<section id="userForm">
+    <form onsubmit="addNewHistoryUser(this)">
+        <fieldset>
+            <legend>CREAR USUARIO</legend>
+            <div>
+                <label for>EMAIL</label><input type="text" id="email"/><br/>
+                <label for>MENSAJE</label><input type="text" id="text"/><br/>
+                <label for>NOMBRE</label><input type="text" id="name" required/><br/>
+                <label for>APELLIDO</label><input type="text" id="last_name" required/><br/>
+                <label for>EDAD</label><input type="number" id="age" required/><br/>
+                <label for>ALIAS</label><input type="text" id="alias" required/><br/>
+                <label for>AVATAR</label>
+                <select id="avatar" name="speed" required>
+                    <option value="https://cdn-icons-png.flaticon.com/512/3940/3940403.png">Oso</option>
+                    <option value="https://cdn-icons-png.flaticon.com/512/921/921089.png">Mujer</option>
+                    <option value="https://cdn-icons-png.flaticon.com/512/3048/3048122.png">Hombre</option>
+                    <option value="https://cdn-icons-png.flaticon.com/512/1391/1391384.png">Fuego</option>
+                    <option value="https://cdn-icons-png.flaticon.com/512/3468/3468306.png">Unicornio</option>
+                </select>
+
+                <input type="submit" value="ENVIAR" class="boton"><br/><br/>
+            </div>
+        </fieldset>
+    </form>
+    
+</section>
+
+<section id="normalForm">
+    <form onsubmit="addHistory(this)">
+        <fieldset>
+            <legend>CENTRO DE MENSAJES</legend>
+            <div>
+                <label for>EMAIL</label><input type="text" id="emailChat"/><br/>
+                <label for>MENSAJE</label><input type="text" id="textChat"/><br/>
+                <input type="submit" value="ENVIAR" class="boton"><br/><br/>
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+<h3 id="compressionRate">
+
+</h3>
+
+<section>
+    <ul id="chat-mensajes">
+    </ul>
+</section>
