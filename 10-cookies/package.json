@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "faker": "^5.5.3",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.15",
+    "normalizr": "^3.6.2",
+    "socket.io": "^4.5.0"
+  },
+  "name": "ejsproduct",
+  "version": "1.0.0",
+  "description": "Desafio 05 con EJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Natán Mendieta",
+  "license": "ISC"
+}
