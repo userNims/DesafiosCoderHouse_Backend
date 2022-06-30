@@ -11,27 +11,11 @@
     <section id="atenuarPantalla"></section>
 
     <main>
-        <form onsubmit="addProduct(this)">
-            <fieldset>
-                <legend>INGRESE LOS DATOS DEL PRODUCTO NUEVO:</legend>
-                <div>
-                    <label for="title">TÍTULO </label><input type="text" name="title" id="title" required><br>
-                    <label for="price">PRECIO </label><input type="number" name="price" id="price" required><br>
-                    <label for="thumbnail">FOTO (URL) </label><input type="text" name="thumbnail" id="thumbnail" required><br>
-                    <input type="submit" value="ENVIAR" class="boton">
-                </div>
-            </fieldset>
-        </form>
-        <br>
-        <%- include('../partials/mensajes'); %>
-
-        <%- include('../partials/table'); %> 
+        <%- include('../partials/login'); %>
     </main>
 
     <footer>
         <%- include('../partials/footer'); %>
     </footer>
-
-    
 </body>
 </html>

@@ -6,6 +6,7 @@ const usuarioDaos = require('./src/mongo/usuarioDaosMongoDB');
 
 //~~~~~~~~~~~~~ REQUIRIENDO MODULOS ~~~~~~~~~~~~~//
 const express = require('express');
+const session = require('express-session');
 
 
 //~~~~~~~~~~~~~ INICIO DE LAS CONFIGURACIONES ~~~~~~~~~~~~~//
@@ -63,6 +64,7 @@ io.on('connection', async (socket, resSocket) => {
     });
     // console.log(productos);
 
+    
     socket.emit('productos', productos);
     
     
