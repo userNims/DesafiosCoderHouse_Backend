@@ -75,8 +75,6 @@ passport.use('login',new LocalStrategy(
         let user = await usuarioDaos.readUser(username)
         if(user.error) {
             return callback(user.error) //* fallo de búsqueda
-        } else if (user.notFound){
-            return callback(null, false) //* no se encontró usuario
         } else {
             if(!validatePass(user, password)){
                 return callback(null, false) //* password incorrecto
