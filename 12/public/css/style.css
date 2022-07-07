@@ -1,0 +1,220 @@
+#atenuarPantalla {
+    background: rgba(48, 2, 2, 0.754);
+    display: none;
+    z-index: 9;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(rgb(83, 0, 69), rgb(30, 30, 30));
+    font-family: Verdana;
+    /* text-align: center; */
+    color:white; 
+    }
+
+    /* p {
+        background: rgb(255, 211, 122);
+        color: #5e5e5e;
+        font-weight: bold;
+        width: 40%;
+        margin: 0 auto;
+        padding: 20px;
+    } */
+
+    table {
+        border: 2px solid white;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    table th {
+                width: 30%;
+                border: 2px solid;
+            }
+
+    table tr {
+        text-align: center;
+    }
+
+    footer {
+        align-self: flex-end;
+        line-height: 1.5;
+        text-align: center;
+        width: 100%;
+        color: rgb(255, 255, 255);
+    }
+
+    fieldset {
+        color: rgb(255, 255, 255);
+        line-height: 2;
+        border: 0px;
+    }
+
+    legend {
+        line-height: 3;
+        font-weight: bold;
+    }
+
+    input{
+        border-radius: 5px;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    img {
+        max-width: 70%;
+    }
+
+    /* CHAT */
+    #chat-mensajes {
+        width: 60%;
+        margin: 0 auto;
+        font-size: 1.2em;
+    }
+
+    .chat-list-title {
+        margin: 10px;
+        list-style: none;
+        color: burlywood;
+    }
+
+    .chat-list-title strong {
+        color: blueviolet;
+    }
+
+    .chat-list-message {
+        margin: 10px;
+        list-style: none;
+        color:greenyellow;
+
+    }
+
+/*~~~~~~~~~~~~~~~ FORMULARIOS ~~~~~~~~~~~~~~~*/
+/** FORMULARIO - INICIAR SESION **/
+#loginForm {
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    background:rgb(30, 30, 30);
+    border-radius: 30px;
+}
+    #emailLogin, #passwordLogin {
+        margin: 10px;
+    }
+
+    .btnLogin, .btnSignUp {
+        font-size: 20px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+
+
+/** FORMULARIO - REGISTRARSE **/
+#registerForm, #errorInitSession{
+    display: none;
+    border: 2px solid white;
+    width: 50%;
+    border-radius: 30px;
+    position: fixed;
+    top: 20%;
+    left: 25%;
+    z-index: 10;
+    background:rgb(30, 30, 30);
+}
+
+    select {
+        cursor: pointer;
+    }
+
+    .botonClose {
+        padding: 5px;
+        color: azure;
+        font-weight: bold;
+        background: #c00000;
+        position: absolute;
+        top: 2%;
+        right: 2%;
+        cursor: pointer;
+    }
+
+    .btnSignUp {
+        padding: 5px;
+        color: azure;
+        font-weight: bold;
+        background: #086b13;
+        cursor: pointer;
+    }
+
+    .btnLogin {
+        padding: 5px;
+        color: azure;
+        font-weight: bold;
+        background: #221a95;
+        cursor: pointer;
+    }
+
+/** MENSAJE SESION **/
+.botonCloseError {
+    z-index: 11;
+    color: azure;
+    font-weight: bold;
+    background: #c00000;
+    position: absolute;
+    top: 4%;
+    left: 94%;
+}
+
+#successInitSession {
+    /* position: fixed; */
+    display: none;
+    border-radius: 15px;
+    background: rgb(4, 90, 114);
+    width: 35%;
+    text-align: center;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+}
+
+
+/**  COMPRESSION RATE **/
+#compressionRate{
+    color: greenyellow;
+    font-size: bold;
+}
+
+
+/** CIERRE DE SESION **/
+#btnLogOut input{
+    display: none;
+    position: absolute;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    color: azure;
+    background: #c00000;
+    top: 2%;
+    right: 1%;
+}
+
+    #logoutSession {
+        z-index: 11;
+        background: rgb(3, 59, 74);
+        width: 40%;
+        text-align: center;
+        padding: 40px 0;
+        border-radius: 30px;
+        display: none;
+        position: fixed;
+        top: 30%;
+        left: 30%;
+    }
+
