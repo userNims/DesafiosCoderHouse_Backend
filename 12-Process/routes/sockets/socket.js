@@ -13,7 +13,7 @@ const httpServer = new HttpServer(app);
 const io = new IOServer(httpServer);
 
 //~~~~~~~~~~~~~ DIRECTORIOS WEBSOCKET ~~~~~~~~~~~~~//
-const websocket = async (socket, resSocket) => {
+io.on('connection', async (socket, resSocket) => {
     // console.log(socket);
     // console.log(socket.cookies); // works in websocket node
     // resSocket.cookies('server2', 'CookieXD')
@@ -133,6 +133,6 @@ const websocket = async (socket, resSocket) => {
         console.log('usuario', usuario);
         io.sockets.emit('session-statusRecieved', usuario);
     });
-}
+});
 
-module.exports = websocket;
+module.exports = io;

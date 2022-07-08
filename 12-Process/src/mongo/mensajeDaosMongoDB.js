@@ -1,7 +1,8 @@
 const Container = require('./ContenedorMongoDB');
 const User = require('./usuarioDaosMongoDB');
 const Model = require('./models/mensajeModel');
-const URL = 'mongodb+srv://test:test@cluster0.cy2mb.mongodb.net/school_store?retryWrites=true&w=majority';
+require("dotenv").config();
+const URL = `${process.env.MongoDB}`;
 
 function timestamp(){
     const date = new Date();

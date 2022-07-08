@@ -1,6 +1,7 @@
 const Container = require('./ContenedorMongoDB');
 const Model = require('./models/usuarioModel');
-const URL = 'mongodb+srv://test:test@cluster0.cy2mb.mongodb.net/school_store?retryWrites=true&w=majority';
+require("dotenv").config();
+const URL = `${process.env.MongoDB}`;
 
 class UsuariosMongoDB extends Container{
     constructor(model,url){
