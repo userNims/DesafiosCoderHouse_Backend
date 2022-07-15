@@ -1,0 +1,26 @@
+<form onsubmit="addHistory(this)">
+    <fieldset>
+        <legend>CHAT DE MENSAJES</legend>
+        <div>
+            <label for>NOMBRE</label><input type="text" id="name"/><br/>
+            <label for>APELLIDO</label><input type="text" id="last_name"/><br/>
+            <label for>EDAD</label><input type="text" id="age"/><br/>
+            <label for>ALIAS</label><input type="text" id="alias"/><br/>
+            <label for>AVATAR</label><input type="text" id="avatar"/><br/>
+            <select id="speed" name="speed" required>
+                <option value="https://cdn-icons-png.flaticon.com/512/3940/3940403.png">Oso</option>
+                <option value="https://cdn-icons.flaticon.com/png/512/2423/premium/2423830.png?token=exp=1654916735~hmac=fc946f79d5768650e9be3a929e4e8f5b">Mujer</option>
+                <option value="https://cdn-icons.flaticon.com/png/512/1211/premium/1211015.png?token=exp=1654916854~hmac=c5d5b334a14210f340d555288edc1b07">Hombre</option>
+                <option value="https://cdn-icons-png.flaticon.com/512/1391/1391384.png">Fuego</option>
+                <option value="https://cdn-icons-png.flaticon.com/512/3468/3468306.png">Unicornio</option>
+            </select>
+
+            <input type="submit" value="ENVIAR" class="boton"><br/><br/>
+        </div>
+    </fieldset>
+</form>
+
+<section>
+    <ul id="chat-mensajes">
+    </ul>
+</section>
