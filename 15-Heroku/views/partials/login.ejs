@@ -1,0 +1,59 @@
+<section id="loginForm">
+    <form>
+        <fieldset>
+            <legend>Iniciar sesión</legend>
+            <div>
+                <form method="post" action="/login">
+                    <label for="email">Email</label><input type="text" id="emailLogin" name="username" required/><br/>
+                    <label for="password">Contraseña</label><input type="password" id="passwordLogin" name="password" required/><br/>
+                    <input type="submit" value="Iniciar sesión" class="btnLogin"><br/>
+                </form>
+                <input type="button" value="Registrarse" class="btnSignUp" onclick="registrarsePopUp(this)"><br/>
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+<section id="registerForm">
+    <form method="post" action="/signup">
+        <input type="button" value="X" class="botonClose" onclick="cerrarPopUp(this)"><br/>
+        <fieldset>
+            <legend>Registrarse</legend>
+            <div>
+                <label for="username">EMAIL</label><input type="text" id="email" name="username"/><br/>
+                <label for="password">PASSWORD</label><input type="password" id="email" name="password"/><br/>
+                <label for>MENSAJE</label><input type="text" id="text"/><br/>
+                <label for>NOMBRE</label><input type="text" id="name" required/><br/>
+                <label for>APELLIDO</label><input type="text" id="last_name" required/><br/>
+                <label for>EDAD</label><input type="number" id="age" required/><br/>
+                <label for>ALIAS</label><input type="text" id="alias" required/><br/>
+                <label for>AVATAR</label>
+                <select id="avatar" name="speed" required>
+                    <option value="https://cdn-icons-png.flaticon.com/512/3940/3940403.png">Oso</option>
+                    <option value="https://cdn-icons-png.flaticon.com/512/921/921089.png">Mujer</option>
+                    <option value="https://cdn-icons-png.flaticon.com/512/3048/3048122.png">Hombre</option>
+                    <option value="https://cdn-icons-png.flaticon.com/512/1391/1391384.png">Fuego</option>
+                    <option value="https://cdn-icons-png.flaticon.com/512/3468/3468306.png">Unicornio</option>
+                </select>
+
+                <input type="submit" value="Registrarse" class="boton btnSignUp"><br/><br/>
+            </div>
+        </fieldset>
+    </form>
+</section>
+
+<section id="errorInitSession">
+    <input type="button" value="X" class="botonCloseError" onclick="cerrarPopUp(this)">
+    <h2>Error al iniciar sesión</h2>
+    <p>Verifique el nombre del usuario o registrese.</p>
+</section>
+
+<section id="successInitSession">
+    <h2>Inicio de sesión correcto</h2>
+    <p id="successMessageLogin"></p>
+</section>
+
+<section id="logoutSession">
+    <h2>Cierre de sesión</h2>
+    <p id="logoutMessage"></p>
+</section>
